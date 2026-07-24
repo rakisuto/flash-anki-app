@@ -23,13 +23,15 @@
 - [x] Spring Bootプロジェクトの雛形をClaude Codeに作成してもらう
 - [x] CLAUDE.mdの初期版を作成
 - [x] ビルド確認、H2接続確認まで完了
+- [x] mdファイル（project_plan / progress_log）をプロジェクト直下の`docs/`フォルダに配置
+- [x] CLAUDE.mdにgit commit運用ルール（コミットメッセージは必ずユーザーが確認・編集してから実行）を追記
+- [x] GitHubリポジトリ（https://github.com/rakisuto/flash-anki-app）にリモート追加し、初回push完了
 
 ---
 
 ## Day3（用語データのモデル設計）— 着手前
 
 予定タスク：
-- [ ] mdファイル（project_plan / progress_log / learning_log）をプロジェクト直下の`docs/`フォルダに配置
 - [ ] 用語データのフィールド設計（用語名、カテゴリ、説明文、正答率、出題回数、最終出題日時 など）
 - [ ] Entityクラスとして実装
 
@@ -37,5 +39,5 @@
 
 ## 次回やること
 
-Day3から着手。mdファイルのdocs/配置 → 用語データのモデル設計。
+Day3から着手。用語データのモデル設計 → Entityクラス実装。
 （保留事項：Budgets設定／MFA設定の実施有無を確認）
